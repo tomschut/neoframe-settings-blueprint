@@ -1,0 +1,41 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "NeoFrame Settings Server",
+        "description": "Serves this frame's settings JSON (schedule, timezone, power profile, paused, image URL) at a URL NeoFrame polls as its Settings URL.",
+        "data": {
+          "name": "Name",
+          "image_url": "Image URL",
+          "timezone": "Timezone (POSIX TZ rule, e.g. Europe/Amsterdam)",
+          "power_profile": "Power profile",
+          "schedule": "Schedule (JSON array of wake windows)",
+          "paused_entity": "Paused-when-not source entity",
+          "active_state": "\"Active\" state"
+        }
+      }
+    },
+    "error": {
+      "invalid_schedule": "Schedule must be a valid, non-empty JSON array, e.g. [{\"days\": \"daily\", \"start\": \"08:00\", \"stop\": \"22:00\", \"every\": \"5m\"}]"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "NeoFrame Settings Server",
+        "data": {
+          "name": "Name",
+          "image_url": "Image URL",
+          "timezone": "Timezone (POSIX TZ rule, e.g. Europe/Amsterdam)",
+          "power_profile": "Power profile",
+          "schedule": "Schedule (JSON array of wake windows)",
+          "paused_entity": "Paused-when-not source entity",
+          "active_state": "\"Active\" state"
+        }
+      }
+    },
+    "error": {
+      "invalid_schedule": "Schedule must be a valid, non-empty JSON array, e.g. [{\"days\": \"daily\", \"start\": \"08:00\", \"stop\": \"22:00\", \"every\": \"5m\"}]"
+    }
+  }
+}

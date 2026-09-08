@@ -1,0 +1,11 @@
+{
+  "domain": "neoframe_settings",
+  "name": "NeoFrame Settings Server",
+  "codeowners": ["@tomschut"],
+  "config_flow": true,
+  "documentation": "https://github.com/tomschut/neoframe-settings-blueprint",
+  "issue_tracker": "https://github.com/tomschut/neoframe-settings-blueprint/issues",
+  "iot_class": "local_push",
+  "requirements": [],
+  "version": "1.0.0"
+}

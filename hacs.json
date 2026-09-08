@@ -1,0 +1,5 @@
+{
+  "name": "NeoFrame Settings Server",
+  "render_readme": true,
+  "homeassistant": "2024.6.0"
+}
