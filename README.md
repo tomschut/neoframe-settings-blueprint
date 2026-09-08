@@ -23,14 +23,14 @@ with `return_response: true` (e.g. a dashboard button) - a webhook hit
 by an external HTTP client (like NeoFrame) always gets an empty `200`
 back, no matter what the automation's actions produce. This is a
 long-standing, still-open gap in Home Assistant core, not a version quirk
-or a blueprint bug - see the "Why" section below if you're curious. A real
-HTTP view, which only a custom integration can register, is the only way
-to actually return computed content to an unauthenticated caller.
+or a blueprint bug. A real HTTP view, which only a custom integration can
+register, is the only way to actually return computed content to an
+unauthenticated caller.
 
 ## Install via HACS
 
 1. HACS → the **⋮** menu → **Custom repositories** → add
-   `https://github.com/tomschut/neoframe-settings-blueprint`, category
+   `https://github.com/tomschut/ha-neoframe-settings`, category
    **Integration**.
 2. Install **NeoFrame Settings Server**, then restart Home Assistant.
 3. **Settings → Devices & Services → Add Integration → NeoFrame Settings
