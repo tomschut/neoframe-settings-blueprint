@@ -78,7 +78,7 @@ blueprint:
             - group
             - input_boolean
     active_state:
-      name: "Active" state
+      name: Active state
       description: >
         The state of the entity above that means NeoFrame should be
         active (not paused). Any other state pauses it.
